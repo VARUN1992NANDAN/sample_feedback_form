@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample_feedback_form</title>
+    <link rel="stylesheet" href="./feedbackform.css">
+</head>
+<body>
+    <form id="signup-form">
+    <div id="one">
+        <h3>NAME<span style="color: red;">*</span></h3>
+        <input type="text" id="name" placeholder="for example:GHJJGJ HKKHJ jljlkjlk lkljkhkj">
+        <div id="feedback"></div>
+        </div><br>
+    <div id="two">
+        <h3>MOBILE NUMBER <span style="color: red;">*</span></h3>
+        <input type="text" id="mn" placeholder="for example:0123456789">
+        <div id="feedbacktwo"></div>
+    </div><br>
+    <div id="three">
+        <h3>EMAIL ID <span style="color: red;">*</span></h3>
+        <input type="text" id="eid" placeholder="for example:abc123def@gmail.com">
+        <div id="feedbackthree"></div>
+    </div><br>
+    <div class="batch-container">
+        Pick a batch:<br><br>
+        <select id="batch">
+          <option>python full stack</option>
+          <option>java full stack</option>
+          <option>amazon web services</option>
+          <option>resume writing</option>
+        </select>
+    </div><br>
+    <div id="four">
+        <h3>HTML</h3>
+        <input type="checkbox">what is HTML<br><br>
+        <input type="checkbox">Meta Tag<br><br> 
+        <input type="checkbox">Block element<br><br>
+        <input type="checkbox">Inline Element<br><br>
+        <input type="checkbox">Tables and Forms<br><br>
+    </div><br>
+    <div id="five">
+        <h3>CSS PART-1</h3>
+        <span style="display: block;"><strong>CSS Basics</strong></span>
+        How to use CSS<input type="checkbox">
+        CSS Selectors<input type="checkbox">
+        Colors and Fonts<input type="checkbox">
+        Background and Borders<input type="checkbox">
+        Float Allignment<input type="checkbox">
+        Box Model<input type="checkbox">
+        Menus<input type="checkbox">
+        Inline Block<input type="checkbox">
+        Position<input type="checkbox">
+    </div><br>
+    <div id="six">
+        <h3>CSS PART-2</h3>
+        <span style="display: block;"><strong>CSS Intermediate</strong></span>
+        Media Queries<input type="checkbox">
+        Flex Design<input type="checkbox">
+        Grid<input type="checkbox">
+        Case Study about Units<input type="checkbox">
+        Project Work -- Hotel Website CSS<input type="checkbox">
+    </div><br>
+    <div id="seven">
+        <button><a href="">Submit</a></button>
+    </div>
+    <div id="eight">
+        <input type="reset" value="Clear Form">
+    </div><br>
+    </form>
+    <script src="./feedbackform.js"></script>
+</body>
+</html>

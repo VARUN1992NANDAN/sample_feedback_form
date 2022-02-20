@@ -1,0 +1,83 @@
+#one{
+    width: 75%;
+    border-style:groove;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto ;
+}
+#one input[type=text] {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#two{
+    width: 75%;
+    border-style:groove;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto ;
+}
+#two input[type=text] {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#three{
+    width: 75%;
+    border-style:groove;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto ;
+}
+#three input[type=text] {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.batch-container{
+    width: 75%;
+    border-style:groove;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto ;
+}
+#four{
+    width: 75%;
+    border-style:groove;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto ;
+}
+#five{
+    overflow: auto;
+    white-space: nowrap;
+    width: 75%;
+    border-style:groove;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto ;
+}
+#six{
+    width: 75%;
+    border-style:groove;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto ;
+}
+#seven{
+    text-decoration: none;
+    position: absolute;
+    left: 12%;
+}
+#seven a{
+    padding: 10px;
+    color: blue;
+    text-decoration: none;
+}
+#seven button{
+    border-radius: 5px;
+}
+#eight{
+    position: absolute;
+    left: 80%;
+}
